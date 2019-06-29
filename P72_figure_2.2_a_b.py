@@ -1,6 +1,3 @@
-P72_figure_2.2_a_0.1_b_0.1
-
-
 import numpy as np
 from scipy import integrate
 import matplotlib.pyplot as pyplot
