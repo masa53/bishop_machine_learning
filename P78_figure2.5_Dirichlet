@@ -1,3 +1,8 @@
 http://ynomura.dip.jp/archives/2018/03/post_66.html
 
-Please add "ax.set_zlim(0, 10)" for a=0.1. You can change point of view of the graph by mouse.
+Please devide grid ten times:
+# triangle mesh grid (0,0)-(1,0)-(0,1)
+xx = np.array([[0.001*a*0.001*(1000-b) for a in range(1, 1000)] for b in range(1, 1000)])
+yy = np.array([[0.001*b] * 999 for b in range(1, 1000)])
+
+And add "ax.set_zlim(0, 10)" for a=0.1. You can change point of view of the graph by mouse.
